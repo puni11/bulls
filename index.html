@@ -651,7 +651,7 @@ a.play:hover{transform:scale(1.08)}
   function smooth(p){var d='M'+p[0][0]+' '+p[0][1];for(var i=0;i<p.length-1;i++){var p0=p[i-1]||p[i],p1=p[i],p2=p[i+1],p3=p[i+2]||p2;d+=' C'+(p1[0]+(p2[0]-p0[0])/6)+' '+(p1[1]+(p2[1]-p0[1])/6)+' '+(p2[0]-(p3[0]-p1[0])/6)+' '+(p2[1]-(p3[1]-p1[1])/6)+' '+p2[0]+' '+p2[1]}return d}
   function ph(){var q='<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 480"><defs><linearGradient id="a" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#c8503c"/><stop offset="1" stop-color="#5e120d"/></linearGradient></defs><path d="M10 480C10 372 92 322 200 322s190 50 190 158z" fill="url(#a)"/><path d="M150 322l50 72 50-72z" fill="#fff8f0"/><rect x="170" y="258" width="60" height="76" rx="26" fill="#d9a07f"/><circle cx="200" cy="188" r="88" fill="#e7b894"/><path d="M112 182c0-62 40-98 90-98s86 38 86 98c-20-36-60-52-92-52s-58 14-84 52z" fill="#2a1715"/><text x="200" y="452" text-anchor="middle" font-family="sans-serif" font-size="17" letter-spacing="5" fill="#f6d79b">TRAINER PHOTO</text></svg>';return 'data:image/svg+xml;utf8,'+encodeURIComponent(q)}
   /* >>> Put real photos here (URL or data URI). Use a transparent PNG for the hero. <<< */
-  var PHOTOS={hero:'bulls.png',trainer:'bulls.png'};
+  var PHOTOS={hero:'bullss.png',trainer:'bullss.png'};
   document.getElementById('heroPerson').src=PHOTOS.hero||ph();
   document.getElementById('trainerImg').src=PHOTOS.trainer||ph();
 
